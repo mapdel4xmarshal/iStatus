@@ -1,0 +1,144 @@
+/* CSS declarations go here */
+body {
+  font-family: sans-serif;
+  background-color: #bac;
+  background-attachment: fixed;
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  padding: 0;
+  margin: 0;
+ 
+  font-size: 14px;
+}
+ 
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+    border: none;
+}
+
+.messagecontainer {
+  max-width: 700px;
+  background: white;
+}
+
+.topmargin{    
+    margin-top: 10px;
+    border: 1px;
+}
+
+.moreSpace
+{
+    height: 5px;
+}
+ 
+header {
+  padding :20px;
+  position: relative;
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  height: 20px;
+}
+
+.messageContainer{
+  padding: 10px 0px 15px 15px;
+  position: relative;
+  border-bottom: #eee solid 1px;
+  margin:20px;
+}
+ 
+#login-buttons {
+  display: block;
+}
+ 
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+ 
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+ 
+.new-message input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 88%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+
+.new-message button {
+    float:right;
+    padding: 5px;
+    width: 12%;
+}
+
+header .title {
+   float:left;
+}
+
+header .user {
+    float:right;
+}
+ 
+.new-message input:focus{
+  outline: 0;
+}
+ 
+ul {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+ 
+.delete {
+  float: right;
+  font-weight: bold;
+  font-size: 1em;
+  color: red;
+  position: relative;
+}
+ 
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #eee solid 1px;
+}
+ 
+li .text {
+  margin-left: 10px;
+}
+ 
+@media (max-width: 320px) {
+  li {
+    padding: 12px 15px;
+  }
+ 
+  .new-message input {
+    padding-bottom: 5px;
+      width:100%;
+  }
+    
+  .new-message button {
+    padding: 5px;
+    width: 100%;
+}
+}

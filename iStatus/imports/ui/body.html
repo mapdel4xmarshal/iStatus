@@ -1,0 +1,26 @@
+<body>
+  <div class="container">          
+    <header>        
+      <h1 class="title">iStatus App</h1>
+      <!-- Adds login Buttons to view -->
+      <div class="user">{{> loginButtons}}  </div> 
+    </header>
+      <div class="messageContainer">
+        <!-- Checks if current user is logged on -->
+        {{#if currentUser}}
+          <form class="new-message">
+            <input type="text" name="messageText" placeholder="Whats on your mind?" />
+              <button>Post</button>
+          </form> 
+        {{/if}}          
+       </div> 
+    <div class="moreSpace"></div>
+    </div>
+   <div class="container topmargin">  
+    <ul>
+      {{#each messages}}
+        {{> message}}
+      {{/each}}
+    </ul>
+   </div>
+</body>
