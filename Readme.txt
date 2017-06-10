@@ -4,7 +4,7 @@ Error: alert is not defined
 
 RUNNING THE APP.
 ------------------------------------------------
-1. Extract iStatus.zip to a desired location 
+1. Download and extract package from github to a desired location 
 2. open terminal (Mac) / command prompt (Windows).
 3  Navigate to the path of the extracted file using the 'cd command'
 4. Type meteor in command area
